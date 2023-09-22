@@ -336,7 +336,7 @@
     </string-array>
 
     <string-array name="config_disableApkUnlessMatchedSku_skus_list" translatable="false">
-        <item>redwood</item>
+        <item>taoyao</item>
     </string-array>
 
     <!-- The display uses different gamma curves for different refresh rates. It's hard for panel

@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/xiaomi/redwood
+DEVICE_PATH := device/xiaomi/taoyao
 
 # Ignore overriding commands errors
 BUILD_BROKEN_DUP_RULES := true
@@ -15,10 +15,10 @@ RELAX_USES_LIBRARY_CHECK=true
 include device/xiaomi/sm7325-common/BoardConfigCommon.mk
 
 # Board
-TARGET_BOOTLOADER_BOARD_NAME := redwood
+TARGET_BOOTLOADER_BOARD_NAME := taoyao
 
 # Kernel
-TARGET_KERNEL_CONFIG += vendor/redwood-fragment.config
+TARGET_KERNEL_CONFIG += vendor/taoyao-fragment.config
 
 # Kernel modules
 BOOT_KERNEL_MODULES := \
@@ -33,4 +33,4 @@ BOARD_DTBOIMG_PARTITION_SIZE := 25165824
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 113254576128
 
 # Include proprietary files
-include vendor/xiaomi/redwood/BoardConfigVendor.mk
+include vendor/xiaomi/taoyao/BoardConfigVendor.mk

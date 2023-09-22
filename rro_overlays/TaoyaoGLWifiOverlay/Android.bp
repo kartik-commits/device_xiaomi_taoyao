@@ -1,4 +1,4 @@
 runtime_resource_overlay {
-    name: "RedwoodCNWifiOverlay",
+    name: "TaoyaoGLWifiOverlay",
     vendor: true
 }

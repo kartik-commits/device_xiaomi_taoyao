@@ -1,4 +1,4 @@
-# All blobs from redwood 12 SKQ1.220303.001 V14.0.8.0.SMSEUXM release-keys, unless pinned
+# All blobs from taoyao 12 SKQ1.220303.001 V14.0.8.0.SMSEUXM release-keys, unless pinned
 
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
@@ -104,24 +104,24 @@ vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc
 vendor/etc/camera/3rdpartconfigure.txt
 vendor/etc/camera/mibokeh_855_opencl.bin
 vendor/etc/camera/mibokeh_855_parameter.bin
-vendor/lib64/camera/com.qti.actuator.redwood_sunny_s5khm2sd_dw9800_wide.so
-vendor/lib64/camera/com.qti.eeprom.redwood_aac_ov02b10_p24c64f_macro_eeprom.so
-vendor/lib64/camera/com.qti.eeprom.redwood_aac_ov16a1q_gt24p64e_front_eeprom.so
-vendor/lib64/camera/com.qti.eeprom.redwood_sunny_s5k4h7_gt24p64e_ultra_eeprom.so
-vendor/lib64/camera/com.qti.eeprom.redwood_sunny_s5khm2sd_p24c128e_wide_eeprom.so
-vendor/lib64/camera/com.qti.sensor.redwood_aac_ov02b10_macro.so
-vendor/lib64/camera/com.qti.sensor.redwood_aac_ov16a1q_front.so
-vendor/lib64/camera/com.qti.sensor.redwood_sunny_s5k4h7_ultra.so
-vendor/lib64/camera/com.qti.sensor.redwood_sunny_s5khm2sd_wide.so
-vendor/lib64/camera/com.qti.sensormodule.redwood_aac_ov02b10_macro.bin
-vendor/lib64/camera/com.qti.sensormodule.redwood_aac_ov16a1q_front.bin
-vendor/lib64/camera/com.qti.sensormodule.redwood_sunny_s5k4h7_ultra.bin
-vendor/lib64/camera/com.qti.sensormodule.redwood_sunny_s5khm2sd_wide.bin
+vendor/lib64/camera/com.qti.actuator.taoyao_sunny_s5khm2sd_dw9800_wide.so
+vendor/lib64/camera/com.qti.eeprom.taoyao_aac_ov02b10_p24c64f_macro_eeprom.so
+vendor/lib64/camera/com.qti.eeprom.taoyao_aac_ov16a1q_gt24p64e_front_eeprom.so
+vendor/lib64/camera/com.qti.eeprom.taoyao_sunny_s5k4h7_gt24p64e_ultra_eeprom.so
+vendor/lib64/camera/com.qti.eeprom.taoyao_sunny_s5khm2sd_p24c128e_wide_eeprom.so
+vendor/lib64/camera/com.qti.sensor.taoyao_aac_ov02b10_macro.so
+vendor/lib64/camera/com.qti.sensor.taoyao_aac_ov16a1q_front.so
+vendor/lib64/camera/com.qti.sensor.taoyao_sunny_s5k4h7_ultra.so
+vendor/lib64/camera/com.qti.sensor.taoyao_sunny_s5khm2sd_wide.so
+vendor/lib64/camera/com.qti.sensormodule.taoyao_aac_ov02b10_macro.bin
+vendor/lib64/camera/com.qti.sensormodule.taoyao_aac_ov16a1q_front.bin
+vendor/lib64/camera/com.qti.sensormodule.taoyao_sunny_s5k4h7_ultra.bin
+vendor/lib64/camera/com.qti.sensormodule.taoyao_sunny_s5khm2sd_wide.bin
 vendor/lib64/camera/com.qti.tuned.default.bin
-vendor/lib64/camera/com.qti.tuned.redwood_aac_ov02b10_macro.bin
-vendor/lib64/camera/com.qti.tuned.redwood_aac_ov16a1q_front.bin
-vendor/lib64/camera/com.qti.tuned.redwood_sunny_s5k4h7_ultra.bin
-vendor/lib64/camera/com.qti.tuned.redwood_sunny_s5khm2sd_wide.bin
+vendor/lib64/camera/com.qti.tuned.taoyao_aac_ov02b10_macro.bin
+vendor/lib64/camera/com.qti.tuned.taoyao_aac_ov16a1q_front.bin
+vendor/lib64/camera/com.qti.tuned.taoyao_sunny_s5k4h7_ultra.bin
+vendor/lib64/camera/com.qti.tuned.taoyao_sunny_s5khm2sd_wide.bin
 vendor/lib64/camera/components/com.mi.node.aiasd.so
 vendor/lib64/camera/components/com.mi.node.beautyLens.so
 vendor/lib64/camera/components/com.mi.node.mimovie.so

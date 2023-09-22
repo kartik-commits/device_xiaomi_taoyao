@@ -14,12 +14,9 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 # Overlays-RRO
 PRODUCT_PACKAGES += \
-    RedwoodCNSettingsProviderOverlay \
-    RedwoodCNWifiOverlay \
-    RedwoodGLSettingsProviderOverlay \
-    RedwoodGLWifiOverlay \
-    RedwoodINSettingsProviderOverlay \
-    RedwoodINWifiOverlay
+    TaoyaoGLSettingsProviderOverlay \
+    TaoyaoGLWifiOverlay \
+    
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
@@ -49,11 +46,11 @@ PRODUCT_PACKAGES += \
 
 # Init
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/init.redwood.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.redwood.rc
+    $(LOCAL_PATH)/rootdir/etc/init.taoyao.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.taoyao.rc
 
 # WiFi Display
 PRODUCT_SYSTEM_PROPERTIES += \
     vendor.sys.video.disable.ubwc=1
 
 # Call the proprietary setup
-$(call inherit-product, vendor/xiaomi/redwood/redwood-vendor.mk)
+$(call inherit-product, vendor/xiaomi/taoyao/taoyao-vendor.mk)

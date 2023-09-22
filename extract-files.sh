@@ -29,7 +29,7 @@ fi
 set -e
 
 # Required!
-export DEVICE=redwood
+export DEVICE=taoyao
 export DEVICE_COMMON=sm7325-common
 export VENDOR=xiaomi
 

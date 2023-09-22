@@ -1,4 +1,4 @@
 runtime_resource_overlay {
-    name: "RedwoodCNSettingsProviderOverlay",
+    name: "TaoyaoGLSettingsProviderOverlay",
     vendor: true
 }
